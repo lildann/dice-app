@@ -65,3 +65,6 @@ I want to be able to *roll* a **dice**
 | .roll(dice, quantity*)| 
 | .record(roll)         |
 
+### Questions 
+
+* Is stubbing a double the only way to test my Dice class method? 
