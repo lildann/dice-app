@@ -1,12 +1,11 @@
-# Dice App
-## Exercise to practise Domain Modelling and TDD
+### Dice App
+#### Exercise to practise Domain Modelling and TDD
 
-
-### User Stories
+#### User Stories
 ```
-As a board game **player**,
-So that I can play a **game**
-I want to be able to *roll* a **dice**
+As a board game player,
+So that I can play a game
+I want to be able to roll a dice
 ```
 
 ```
@@ -40,26 +39,28 @@ I want to be able to get my current score
 ```
 
 
-Class Diagramming
+#### Nouns + Verbs
+As a board game **player**,
+So that I can play a **game**
+I want to be able to *roll* a **dice**
+
+
+#### Class Diagramming
 
 | Class              |
-|--------------------|
+|:------------------:|
 | Instance variables |
-|--------------------|
 | .methods()         | 
 
 
-| Dice          | 
-|:-------------:|
-| @value        | <--- Integer (1-6)
-|---------------| 
-| .randomizer()|
+| Dice            | 
+|:---------------:|
+| .random_value() | <--- Integer (1-6)
 
 
 | Player                | 
 |:---------------------:|
-| @rolls                | <--- Array 
-|-----------------------| 
+| @rolls                | <--- Array  
 | .current_score()      |
 | .roll(dice, quantity*)| 
 | .record(roll)         |
