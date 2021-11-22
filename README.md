@@ -62,9 +62,10 @@ I want to be able to *roll* a **dice**
 |:---------------------:|
 | @rolls                | <--- Array  
 | .current_score()      |
-| .roll(dice, quantity*)| 
+| .roll(dice, quantity) | 
 | .record(roll)         |
 
 ### Questions 
 
 * Is stubbing a double the only way to test my Dice class method? 
+* How to write a feature_spec.rb test without stubbing Dice class?
